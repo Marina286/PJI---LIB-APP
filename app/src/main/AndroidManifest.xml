@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.libapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TransporteRes"></activity>
+        <activity android:name=".TempoRes" />
+        <activity android:name=".PronomeRes" />
+        <activity android:name=".TransporteQ5" />
+        <activity android:name=".TransporteQ4" />
+        <activity android:name=".TransporteQ3" />
+        <activity android:name=".TransporteQ2" />
+        <activity android:name=".TransporteQ1" />
+        <activity android:name=".TempoQ5" />
+        <activity android:name=".TempoQ4" />
+        <activity android:name=".TempoQ3" />
+        <activity android:name=".TempoQ2" />
+        <activity android:name=".TempoQ1" />
+        <activity android:name=".PronomeQ5" />
+        <activity android:name=".PronomeQ4" />
+        <activity android:name=".PronomeQ3" />
+        <activity android:name=".PronomeQ2" />
+        <activity android:name=".PronomeQ1" />
+        <activity android:name=".TransporteQuest" />
+        <activity android:name=".TempoQuest" />
+        <activity android:name=".PronomeQuest" />
+        <activity android:name=".TransporteVoc" />
+        <activity android:name=".TempoVoc" />
+        <activity android:name=".PronomeVoc" />
+        <activity android:name=".NumeroVoc" />
+        <activity android:name=".AlfabetoVoc" />
+        <activity android:name=".ContatoConfig" />
+        <activity android:name=".InfoConfig" />
+        <activity android:name=".Config" />
+        <activity android:name=".TemaVoc" />
+        <activity android:name=".TemaQuestao" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
